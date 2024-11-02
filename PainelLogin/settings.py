@@ -13,7 +13,9 @@ SECRET_KEY = 'django-insecure-dcqda=fks%wxkey0$-fyl*y5bi!7yhek&5j#jf7r49gw&r=vcv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['painel-login-django.onrender.com', 'painel.ofilipe.com.br']
+# ALLOWED_HOSTS = ['painel-login-django.onrender.com', 'painel.ofilipe.com.br']
+ALLOWED_HOSTS = ['painel.ofilipe.com.br', 'painel-login-django.onrender.com']
+
 
 # Application definition
 INSTALLED_APPS = [
